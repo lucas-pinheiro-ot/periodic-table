@@ -1,0 +1,35 @@
+:root{ background-color: rgb(109, 109, 109); padding: 20px;
+--element-size: 52px;
+}
+
+td, tr {
+    border: 1px solid;
+    height: var(--element-size);
+    width: var(--element-size);
+    border-radius: 3px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.top-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 55%;
+    margin-inline: 5%;
+    font-size: 40%;
+}
+.e-symbol { font-size: 100%; }
+.e-name { font-size: 40%; }
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.empty, .empty:hover { border: 0;background-color: rgba(0, 0, 0, 0);}
+
+table td:hover {
+    background-color: rgb(53, 52, 122);
+    color: white;
+    transform: scale(1.5, 1.5);
+}
